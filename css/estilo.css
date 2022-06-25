@@ -6,6 +6,10 @@
   margin: 10px;
   text-align: center; }
 
+nav {
+  margin: 10px;
+  background-color: aqua; }
+
 * {
   margin: 0%;
   padding: 0%; }
