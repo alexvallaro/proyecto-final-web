@@ -7,58 +7,127 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- css -->
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Document</title>
 </head>
+
 <body>
+
+
     <header>
         <div class="titulo">Macarena Vallaro Estudio</div>
         <!-- navbar -->
-
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="sobre_mi.html">Sobre Mi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Trabajos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="maquillaje_social.html">Maquillaje Social</a></li>
-                <li><a class="dropdown-item" href="automaquillaje.html">Auto Maquillaje</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Cursos</a></li>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="sobre_mi.html">Sobre Mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Trabajos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="maquillaje_social.html">Maquillaje Social</a></li>
+                    <li><a class="dropdown-item" href="automaquillaje.html">Auto Maquillaje</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Cursos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="redes.html">Redes</a>
+                </li>
                 </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="redes.html">Redes</a>
-            </li>
-            </ul>
-            <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-        </div>
-    </nav>
-
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
     </header>
 
+    <!-- COLOCAR ALGUNA IMAGEN DE FONDO -->
+
+    <section>
+        <article class="contacto">
+            <p>¿Tienes alguna consulta?</p>
+            <p>¿Estas pensando en reservar o regalar una sesion de maquillaje profesional?</p>
+                
+            <p>¡No dudes en contactarte con nosotros por cualquier motivo!</p>
+                
+            <p>Contamos con correo electrónico, llamadas, mensaje de texto y/o Whatsapp o simplemente complete el formulario a continuación y presione "enviar"</p>
+        </article>
+
+        <article>
+            <form class="row g-3 needs-validation m-3" novalidate>
+                <div class="col-md-4 position-relative">
+                <label for="validationTooltip01" class="form-label">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" value="" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                <label for="validationTooltip02" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+                </div>
+                <div class="col-md-4 position-relative">
+                <label for="validationTooltipUsername" class="form-label">Email or Instagram</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div class="invalid-tooltip">
+                    Please choose a unique and valid username.
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-6 position-relative">
+                <label for="validationTooltip03" class="form-label">City</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid city.
+                </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                <label for="validationTooltip04" class="form-label">Product</label>
+                <select class="form-select" id="validationTooltip04" required>
+                    <option selected disabled value="">Curso Automaquillaje</option>
+                    <option>Sesion de Maquillaje</option>
+                </select>
+                <div class="invalid-tooltip">
+                    Please select a valid state.
+                </div>
+                </div>
+                <div class="col-md-3 position-relative">
+                <label for="validationTooltip05" class="form-label">Date</label>
+                <input type="text" class="form-control" id="validationTooltip05" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                </div>
+                </div>
+                <div class="col-12">
+                <button class="btn btn-primary" type="submit">Submit form</button>
+                </div>
+            </form>
+        </article>
+    </section>
 
 
 
 
-
+    <footer>Todos los derechos reservados</footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
