@@ -6,12 +6,21 @@
   margin: 10px;
   text-align: center; }
 
+* {
+  margin: 0%;
+  padding: 0%; }
+
+body {
+  background-color: blue; }
+
 .carrusel {
   background-color: double red;
   margin: 10px; }
 
 section {
-  background-color: aquamarine; }
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 5pt; }
 
 article {
   background-color: bisque;
@@ -19,8 +28,12 @@ article {
 
 .tarjeta {
   background-color: red;
-  width: 700px;
-  height: 700px; }
+  width: auto;
+  margin: 10px;
+  padding: 10pt; }
+
+.card {
+  margin-left: 20px; }
 
 footer {
   background-color: red;

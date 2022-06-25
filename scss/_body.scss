@@ -1,3 +1,14 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: blue;
+    
+}
+
+
 .carrusel {
     background-color: double red;
     margin: 10px;
@@ -6,6 +17,8 @@
 
 section {
     background-color: aquamarine;
+    margin: 10px;
+    padding: 5pt;
 
 }
 
@@ -16,6 +29,13 @@ article {
 
 .tarjeta {
     background-color: red;
-    width: 700px;
-    height: 700px;
+    width: auto;
+    $card-height: 100%;
+    margin: 10px;
+    padding: 10pt;
+}
+
+.card {
+    margin-left: 20px;
+
 }
