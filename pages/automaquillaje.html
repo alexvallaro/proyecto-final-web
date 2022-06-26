@@ -7,52 +7,88 @@
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- css -->
-    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="titulo">Macarena Vallaro Estudio</div>
-        <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="sobre_mi.html">Sobre Mi</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Trabajos
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="maquillaje_social.html">Maquillaje Social</a></li>
-                <li><a class="dropdown-item" href="automaquillaje.html">Auto Maquillaje</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Cursos</a></li>
+        <!-- navbar -->        
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Home</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="sobre_mi.html">Sobre Mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Trabajos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="maquillaje_social.html">Maquillaje Social</a></li>
+                    <li><a class="dropdown-item" href="automaquillaje.html">Auto Maquillaje</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Cursos</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="redes.html">Redes</a>
+                </li>
                 </ul>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="redes.html">Redes</a>
-            </li>
-            </ul>
-            <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-        </div>
-        </div>
-    </nav>
-
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            </div>
+        </nav>
     </header>
+
+    <section>
+        <article class="automaquillaje">Automaquillaje</article>
+
+        <article class="carruselRetrato p-3">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../img/AM1.jpeg" class="d-block w-20 mx-auto img-fluid" alt="autom1">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/AM2.jpeg" class="d-block w-20 mx-auto img-fluid" alt="autom2">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/AM3.jpeg" class="d-block w-20 mx-auto img-fluid" alt="autom3">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/AM4.jpeg" class="d-block w-20 mx-auto img-fluid" alt="autom4">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/AM5.jpeg" class="d-block w-20 mx-auto img-fluid" alt="autom5">
+                </div>
+                <div class="carousel-item">
+                    <img src="../img/AM6.jpeg" class="d-block w-20 mx-auto img-fluid" alt="autom6">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>    
+        </article>
+    </section>
 
 
 

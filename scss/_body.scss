@@ -8,12 +8,28 @@ body {
     
 }
 
-
+/* Carrusel del index */
 .carrusel {
     background-color: double red;
     margin: 10px;
     
 }
+
+/* Carrusel de Automaquillaje*/
+
+.carruselRetrato {
+    background-color: red;
+    margin: 10px;
+}
+
+/*
+@media (min-width:800px) {
+    .carousel-inner {
+        width: auto;
+        height: auto;
+    }
+}
+*/
 
 section {
     background-color: aquamarine;
@@ -27,6 +43,8 @@ article {
     margin: 20px;
     }
 
+/* Tarjeta + Card "Index" */
+
 .tarjeta {
     background-color: red;
     width: auto;    
@@ -38,3 +56,19 @@ article {
     margin-left: 20px;
 
 }
+
+/*Automaquillaje*/
+
+.fotosmaquillajesocial {
+    text-align: center;
+}
+
+.subtitle {
+    font-family: cursive;
+    text-align: center;
+    margin: 10pt;
+}
+
+/* Sobre Mi */
+
+
