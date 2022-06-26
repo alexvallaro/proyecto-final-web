@@ -5,8 +5,12 @@
 
 body {
     background-color: blue;
+    margin: 2pt;
+    padding: 2pt;
     
 }
+
+
 
 /* Carrusel del index */
 .carrusel {
@@ -70,5 +74,20 @@ article {
 }
 
 /* Sobre Mi */
+
+.retrato {
+    text-align: center;
+}
+
+.informacion {
+    height: auto;
+}
+
+h3 {
+    margin-top: 40pt;
+    padding: 10pt;
+    font-family: cursive;
+    text-align: center;
+}
 
 

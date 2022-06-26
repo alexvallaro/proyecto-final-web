@@ -6,6 +6,12 @@
   margin: 10px;
   text-align: center; }
 
+header {
+  width: 100%; }
+
+.container-fluid {
+  width: 100%; }
+
 nav {
   margin: 10px;
   background-color: aqua; }
@@ -15,7 +21,9 @@ nav {
   padding: 0%; }
 
 body {
-  background-color: blue; }
+  background-color: blue;
+  margin: 2pt;
+  padding: 2pt; }
 
 /* Carrusel del index */
 .carrusel {
@@ -64,8 +72,20 @@ article {
   margin: 10pt; }
 
 /* Sobre Mi */
+.retrato {
+  text-align: center; }
+
+.informacion {
+  height: auto; }
+
+h3 {
+  margin-top: 40pt;
+  padding: 10pt;
+  font-family: cursive;
+  text-align: center; }
+
 footer {
-  background-color: red;
+  background-color: gold;
   border: double black;
   font-family: cursive;
   margin: 10px; }
