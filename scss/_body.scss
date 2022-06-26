@@ -3,6 +3,7 @@
     padding: 0%;
 }
 
+
 body {
     background-color: white;
     margin: 2pt;
@@ -77,20 +78,11 @@ h2 {
     border: double black;       
 }
 
-.secMaquillajeSocial {
-    background-color: blue;
-}
-
 .artMaquillajeSocial {
-    background-color: red;
     border: double black;
     text-align: center;
 }
 
-
-.subtitle {
-    background-color: aqua;
-}
 
 /* Sobre Mi */
 
@@ -112,4 +104,10 @@ h3 {
     
 }
 
+/* Cursos */
 
+h4 {
+    text-align: justify;
+    font-family: cursive;
+    font-size: medium;
+}

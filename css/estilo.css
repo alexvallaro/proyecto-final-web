@@ -75,16 +75,9 @@ h2 {
   margin: 5pt;
   border: double black; }
 
-.secMaquillajeSocial {
-  background-color: blue; }
-
 .artMaquillajeSocial {
-  background-color: red;
   border: double black;
   text-align: center; }
-
-.subtitle {
-  background-color: aqua; }
 
 /* Sobre Mi */
 .retrato {
@@ -100,6 +93,12 @@ h3 {
   padding: 10pt;
   font-family: cursive;
   text-align: center; }
+
+/* Cursos */
+h4 {
+  text-align: justify;
+  font-family: cursive;
+  font-size: medium; }
 
 footer {
   background-color: white;
