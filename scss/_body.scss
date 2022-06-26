@@ -4,9 +4,10 @@
 }
 
 body {
-    background-color: blue;
+    background-color: white;
     margin: 2pt;
     padding: 2pt;
+    border: double black;
     
 }
 
@@ -14,7 +15,7 @@ body {
 
 /* Carrusel del index */
 .carrusel {
-    background-color: double red;
+    background-color: white;
     margin: 10px;
     
 }
@@ -22,8 +23,9 @@ body {
 /* Carrusel de Automaquillaje*/
 
 .carruselRetrato {
-    background-color: red;
+    background-color: white;
     margin: 10px;
+    
 }
 
 /*
@@ -36,51 +38,70 @@ body {
 */
 
 section {
-    background-color: aquamarine;
+    background-color: white;
     margin: 10px;
     padding: 5pt;
+    border: double black;
 
 }
 
 article {
-    background-color: bisque;
+    background-color: white;
     margin: 20px;
+    padding: 5pt;    
     }
 
 /* Tarjeta + Card "Index" */
 
 .tarjeta {
-    background-color: red;
+    background-color: white;
     width: auto;    
     margin: 10px;
     padding: 10pt;
+    
 }
 
 .card {
     margin-left: 20px;
+    border: double black;
 
 }
 
-/*Automaquillaje*/
+/*Maquillaje Social*/
 
-.fotosmaquillajesocial {
-    text-align: center;
-}
-
-.subtitle {
+h2 {
+    text-align: center;    
     font-family: cursive;
     text-align: center;
-    margin: 10pt;
+    margin: 5pt;
+    border: double black;       
+}
+
+.secMaquillajeSocial {
+    background-color: blue;
+}
+
+.artMaquillajeSocial {
+    background-color: red;
+    border: double black;
+    text-align: center;
+}
+
+
+.subtitle {
+    background-color: aqua;
 }
 
 /* Sobre Mi */
 
 .retrato {
     text-align: center;
+    border: double black;
 }
 
 .informacion {
     height: auto;
+    border: double black;
 }
 
 h3 {
@@ -88,6 +109,7 @@ h3 {
     padding: 10pt;
     font-family: cursive;
     text-align: center;
+    
 }
 
 

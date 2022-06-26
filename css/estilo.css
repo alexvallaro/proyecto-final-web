@@ -2,37 +2,39 @@
   font-size: 25px;
   font-family: cursive;
   border: double black;
-  background-color: red;
+  background-color: white;
   margin: 10px;
   text-align: center; }
 
 header {
-  width: 100%; }
+  width: 100%;
+  background-color: white; }
 
 .container-fluid {
   width: 100%; }
 
 nav {
   margin: 10px;
-  background-color: aqua; }
+  border: double black; }
 
 * {
   margin: 0%;
   padding: 0%; }
 
 body {
-  background-color: blue;
+  background-color: white;
   margin: 2pt;
-  padding: 2pt; }
+  padding: 2pt;
+  border: double black; }
 
 /* Carrusel del index */
 .carrusel {
-  background-color: double red;
+  background-color: white;
   margin: 10px; }
 
 /* Carrusel de Automaquillaje*/
 .carruselRetrato {
-  background-color: red;
+  background-color: white;
   margin: 10px; }
 
 /*
@@ -44,39 +46,54 @@ body {
 }
 */
 section {
-  background-color: aquamarine;
+  background-color: white;
   margin: 10px;
-  padding: 5pt; }
+  padding: 5pt;
+  border: double black; }
 
 article {
-  background-color: bisque;
-  margin: 20px; }
+  background-color: white;
+  margin: 20px;
+  padding: 5pt; }
 
 /* Tarjeta + Card "Index" */
 .tarjeta {
-  background-color: red;
+  background-color: white;
   width: auto;
   margin: 10px;
   padding: 10pt; }
 
 .card {
-  margin-left: 20px; }
+  margin-left: 20px;
+  border: double black; }
 
-/*Automaquillaje*/
-.fotosmaquillajesocial {
+/*Maquillaje Social*/
+h2 {
+  text-align: center;
+  font-family: cursive;
+  text-align: center;
+  margin: 5pt;
+  border: double black; }
+
+.secMaquillajeSocial {
+  background-color: blue; }
+
+.artMaquillajeSocial {
+  background-color: red;
+  border: double black;
   text-align: center; }
 
 .subtitle {
-  font-family: cursive;
-  text-align: center;
-  margin: 10pt; }
+  background-color: aqua; }
 
 /* Sobre Mi */
 .retrato {
-  text-align: center; }
+  text-align: center;
+  border: double black; }
 
 .informacion {
-  height: auto; }
+  height: auto;
+  border: double black; }
 
 h3 {
   margin-top: 40pt;
@@ -85,7 +102,7 @@ h3 {
   text-align: center; }
 
 footer {
-  background-color: gold;
+  background-color: white;
   border: double black;
   font-family: cursive;
   margin: 10px; }
