@@ -5,18 +5,23 @@
 
 
 body {
-    background-color: white;
+    background-color: none;
     margin: 2pt;
     padding: 2pt;
     border: double black;
+    background-image: url(../img/fondo2.jpeg);
+    background-size: 90% auto;
+    background-position: center top;
+    background-repeat: repeat-y;
     
 }
 
+/*Contacto*/
 
 
 /* Carrusel del index */
 .carrusel {
-    background-color: white;
+    background-color: none;
     margin: 10px;
     
 }
@@ -24,7 +29,7 @@ body {
 /* Carrusel de Automaquillaje*/
 
 .carruselRetrato {
-    background-color: white;
+    background-color: none;
     margin: 10px;
     
 }
@@ -39,7 +44,7 @@ body {
 */
 
 section {
-    background-color: white;
+    background-color: none;
     margin: 10px;
     padding: 5pt;
     border: double black;
@@ -47,7 +52,7 @@ section {
 }
 
 article {
-    background-color: white;
+    background-color: none;
     margin: 20px;
     padding: 5pt;    
     }
@@ -55,7 +60,7 @@ article {
 /* Tarjeta + Card "Index" */
 
 .tarjeta {
-    background-color: white;
+    background-color: none;
     width: auto;    
     margin: 10px;
     padding: 10pt;
@@ -107,7 +112,7 @@ h3 {
 /* Cursos */
 
 h4 {
-    text-align: justify;
+    text-align: center;
     font-family: cursive;
     font-size: medium;
 }
