@@ -32,7 +32,6 @@ body {
   background-position: center top;
   background-repeat: repeat-y; }
 
-/*Contacto*/
 /* Carrusel del index */
 .carrusel {
   background-color: none;
@@ -43,14 +42,6 @@ body {
   background-color: none;
   margin: 10px; }
 
-/*
-@media (min-width:800px) {
-    .carousel-inner {
-        width: auto;
-        height: auto;
-    }
-}
-*/
 section {
   background-color: none;
   margin: 10px;
