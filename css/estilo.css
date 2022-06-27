@@ -32,6 +32,9 @@ body {
   background-position: center top;
   background-repeat: repeat-y; }
 
+h5 {
+  font-size: 50pt; }
+
 /* Carrusel del index */
 .carrusel {
   background-color: none;
@@ -86,15 +89,17 @@ h3 {
 h4 {
   text-align: center;
   font-family: cursive;
-  font-size: medium;
-  color: black; }
+  font-size: 17pt;
+  color: black;
+  margin: 5pt; }
 
 /* Sobre Mi */
 .retrato {
   text-align: center;
   border: double black;
   height: auto;
-  margin: 10px; }
+  margin: 10px;
+  padding: 5pt; }
 
 .informacion {
   height: auto;
@@ -103,8 +108,8 @@ h4 {
 .presentacion {
   border: double black;
   height: auto;
-  margin: 10px;
-  padding-bottom: 90px; }
+  padding-bottom: 65pt;
+  margin: 10px; }
 
 footer {
   background-color: none;

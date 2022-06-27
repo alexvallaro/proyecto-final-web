@@ -13,14 +13,16 @@ body {
     background-size: 90% auto;
     background-position: center top;
     background-repeat: repeat-y;
-    
+}
+
+h5 {
+    font-size: 50pt;
 }
 
 /* Carrusel del index */
 .carrusel {
     background-color: none;
     margin: 10px;
-    
 }
 
 /* Carrusel de Automaquillaje*/
@@ -28,7 +30,6 @@ body {
 .carruselRetrato {
     background-color: none;
     margin: 10px;
-    
 }
 
 section {
@@ -36,7 +37,6 @@ section {
     margin: 10px;
     padding: 5pt;
     border: double black;
-
 }
 
 article {
@@ -51,14 +51,12 @@ article {
     background-color: none;
     width: auto;    
     margin: 10px;
-    padding: 10pt;
-    
+    padding: 10pt;    
 }
 
 .card {
     margin-left: 20px;
     border: double black;
-
 }
 
 /*Maquillaje Social*/
@@ -80,9 +78,7 @@ h3 {
     margin-top: 40pt;
     padding: 10pt;
     font-family: cursive;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 
 /* Cursos */
@@ -90,10 +86,9 @@ h3 {
 h4 {
     text-align: center;
     font-family: cursive;
-    font-size: medium;
+    font-size: 17pt;
     color: black;
-    
-
+    margin: 5pt;
 }
 
 /* Sobre Mi */
@@ -103,17 +98,17 @@ h4 {
     border: double black;
     height: auto;
     margin: 10px;
+    padding: 5pt;
 }
 
 .informacion {
     height: auto;
-    border: double black;
-    
+    border: double black;    
 }
 
 .presentacion {
     border: double black;
     height: auto;
-    margin: 10px;
-    padding-bottom: 90px;
+    padding-bottom: 65pt;
+    margin: 10px;    
 }
