@@ -113,10 +113,20 @@ h4 {
 .retrato {
     text-align: center;
     border: double black;
+    height: auto;
+    margin: 10px;
 }
 
 .informacion {
     height: auto;
     border: double black;
+    
+}
+
+.presentacion {
+    border: double black;
+    height: auto;
+    margin: 10px;
+    padding-bottom: 90px;
 }
 
